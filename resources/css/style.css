@@ -56,20 +56,18 @@ a {
 .tea-month {
   width: 1000px;
   align-self: center;
-  border: 2px solid red;
 }
 
 .tea-grid {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid green;
-  justify-content: center space-between;
-
+  justify-content: center;
 }
 
 .tea-grid div {
   height: 300px;
   width: 300px;
+  margin: 0px 10px;
   justify-content: space-around;
 }
 
@@ -106,6 +104,9 @@ a {
   height: 300px;
   background-color: black;
   margin: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .info {
